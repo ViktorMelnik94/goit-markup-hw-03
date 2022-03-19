@@ -1,0 +1,116 @@
+/* variables */
+:root {
+--advantages-title-text-color:#212121;
+--advantages-description-text-color:#757575;
+--employee-name-text-color:#212121;
+--specialty-text-color:#757575;
+--footer-color-background:#2F303A;
+--button-text-color:#FFFFFF;
+--home-color: #2196F3;
+--headlines-text-color:#212121;
+--portfolio-headlines-text-color:#212121;
+--portfolio-description-text-color:#757575;
+--background-button-color:#2196F3;
+}
+
+body {
+    background-color:#fff;
+    font-family:Roboto;
+    font-size: 14px;
+    color: #757575;
+}
+
+li {
+    list-style-type: none;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+
+/* button */
+.service-order {
+    cursor: pointer;
+    color: var(--button-text-color);
+    background: var(--background-button-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+}
+  
+.button {
+  cursor: pointer;
+  color: var(--button-text-color);
+  background: var(--background-button-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: inherit;
+}
+
+/* text */
+
+.general-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    color: #FFFFFF;
+    background-color: #2F303A;
+    text-transform: uppercase;
+}
+
+.secondary-titles {
+    font-size: 36px;
+    color: var(--headlines-text-color);
+    font-weight: bold;
+    line-height: 1.16;
+}
+
+/* advantages */
+
+.advantages-title {
+    font-size: 14px;
+    color: var(--advantages-title-text-color);
+    font-weight: bold;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+}
+
+.advantages-description {
+    color: var(--advantages-description-text-color)
+    line-height: 1.71;
+    font-weight:400px;
+}
+
+/* our-team */
+
+.employee-name {
+    font-size: 16px;
+    color: var(--employee-name-text-color);
+    font-weight: 500;
+    line-height: 1.18;
+}
+
+.specialty {
+    font-size: 16px;
+    color: var(--specialty-text-color)
+    line-height: 1.18;
+}
+
+/* portfolio */
+
+.portfolio-headlines {
+    font-size: 18px;
+    color: var(--portfolio-headlines-text-color);
+    font-weight: bold;
+    line-height: 2;
+}
+
+.portfolio-description {
+    font-size: 16px;
+    color: var(--portfolio-description-text-color);
+    line-height: 1.87;
+}
+
