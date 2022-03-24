@@ -9,7 +9,10 @@
 /* header-footer*/
 
 .tel, .mailto{
-    color:#212121;
+    color: #757575;
+    font-size: 14px;
+    line-height: 0.87;
+    letter-spacing: 0.02em;
 }
 
 .tel:hover,
